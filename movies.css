@@ -1,0 +1,154 @@
+/* BenlongHuang */
+@CHARSET "UTF-8";
+
+body {
+	margin: auto;
+	
+	background-image: url("images/moviebg.png"); 
+}
+
+div {
+	padding: 0;
+	margin: 0;
+}
+
+h1 {
+	text-align: center;
+	text-shadow: 2px 2px dimgray;
+	font-size: 24pt;
+	font-family: Georgia, "Times New Roman", serif;
+}
+
+.Top {
+	width : 100%;
+	background-image: url("images/rancidbannerbg.png");
+	background-repeat: repeat-x;
+}
+
+.rotten {
+	position: relative;
+	background-image: url("images/rottenlargebg.png");
+	background-repeat: repeat-x;
+	width: 550px;
+	height: 83px;
+}
+
+.main {
+	overflow: hidden;
+	margin: auto;
+	top: 5em;
+	width: 800px;
+	height: 1000px;
+	background-color: darkseagreen;
+	border-radius: 25px;
+	box-shadow: 10px 10px 5px gray;
+}
+
+.percentage {
+	position: absolute;
+	top: 0;
+	left: 125px;
+	font-weight: bold;
+	font-size: 48pt;
+	font-family: sans-serif;
+	color: red;
+}
+
+.overview {
+	float: right;
+	background-color: darkseagreen;
+	width: 250px;
+	height: 400px;
+}
+
+#benlong{
+	width: 250px;
+	height: 400px;
+}
+
+.review {
+	float: left;
+	width: 550px;
+	
+}
+
+.reviewLeft {
+	background-color: lightgray;
+	float: left;
+	top: 83px;
+	width: 275px;
+	height: 900px;
+	
+}
+
+.reviewRight {
+	background-color: lightgray;
+	float: right;
+	top: 83px;
+	width: 275px;
+	height: 900px;
+	
+}
+
+.comments {
+	position: relative;
+	background-color: white;
+	border: 2px solid darkgray;
+	border-radius: 20px;
+	padding: 8px;
+	font-family: Georgia;
+	font-size: 10pt;
+	margin : 5px;
+	margin-right:15px;
+}
+
+.comments img {
+	float: left;
+	padding: 0;
+	margin: 0;
+}
+
+.author {
+	position: relative;
+	height: 45px;
+	left: 5px;
+	font-family: Times New Roman;
+	font-size: 10pt;
+}
+
+.author img {
+	float: left;
+}
+
+dl {
+	float: left;
+	width: 250px;
+	height: 560px;
+	background-color: darkseagreen;
+	font-family: Arial;
+	font-size: 9pt;
+}
+
+dt {
+	font-weight: bold;
+	padding-top: 5px;
+	padding-left: 12px;
+	padding-right: 12px;
+}
+
+dd {
+	padding-left: 12px;
+	padding-right: 12px;
+}
+
+.pageNumber {
+	position: absolute;
+	float: left;
+	top: 1105px;
+	width: 800px;
+	height: 28px;
+	background-color: darkseagreen;
+	border-radius: 0 0 25px 25px;
+	text-indent: 240px;
+	font-size: 17px;
+}
